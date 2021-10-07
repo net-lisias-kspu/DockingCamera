@@ -1,5 +1,7 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-1201: 1.3.7 (linuxgurugamer) for KSP 1.8.1
+	+ Updated for KSP 1.8
 * 2019-0905: 1.3.6.3 (linuxgurugamer) for KSP 1.7.3
 	+ Fixed range settings in settings page, to only show one of the two ranges to be active
 	+ Fixed long range setting causing vessel coming into range having it's speed matched to that of the active vessel
