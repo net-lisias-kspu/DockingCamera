@@ -1,5 +1,12 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2020-0908: 1.3.7.5 (linuxgurugamer) for KSP 1.10.1
+	+ Added settings to enable/disable the cross, summary data, detail text data and rotators
+	+ Added setting for default window size
+	+ Thanks to Twitch user @HansAcker for some Vector3D code to help show the proper distances from the x,y,z
+	+ Removed static from camera without a target.
+	+ Added toggles to window for the main options listed above
+	+ Added velocity indicator
 * 2020-0904: 1.3.7.4 (linuxgurugamer) for KSP 1.10.1
 	+ Removed unused assets folder
 * 2020-0803: 1.3.7.3 (linuxgurugamer) for KSP 1.10.1
