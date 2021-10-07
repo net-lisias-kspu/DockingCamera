@@ -1,5 +1,8 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2021-0311: 1.3.8.1 (linuxgurugamer) for KSP 1.11.1
+	+ Closes # 23
+	+ Added ModuleCargoPart for KSP 1.11
 * 2020-1208: 1.3.8 (linuxgurugamer) for KSP 1.10.1
 	+ Increase size of info window
 	+ Merged in changes from forum user @Dehim (github @Dehim1) with alternate mode
