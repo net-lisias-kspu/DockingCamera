@@ -1,5 +1,8 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2017-1022: 1.3.2 (linuxgurugamer) for KSP 1.3.1
+	+ Added ability to rotate the docking camera
+	+ Added zoom to docking camera
 * 2017-1020: 1.3.1.3 (linuxgurugamer) for KSP 1.3.1
 	+ Fixed nullref when instantiating vessel
 * 2017-1009: 1.3.1.2 (linuxgurugamer) for KSP 1.3.1
