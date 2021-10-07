@@ -1,5 +1,19 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-0531: 1.3.5 (linuxgurugamer) for KSP 1.7.1
+	+ Removed log spam
+	+ Add check for vessels undocking
+	+ Fixed check for vessels with cameras nearby
+	+ Changed default Noise setting to false for docking cameras
+	+ Added option to use the standard KSP skin
+	+ Removed Blizzy option from settings page (now controlled by ToolbarController)
+	+ Added UI scaling
+	+ Replaced the lower-right button which cycled through the sizes with two new buttons, one to increase and one to decrease the size
+	+ Added an "x" to close button in upper right
+	+ Fixed the rotators so they won't overlap in larger windows
+	+ Changed the KURS Camera Info window to only show data
+	+ Updated the wording in the window to properly reflect 1 or multiple (putting an s after vessel when appropriate)
+	+ Added InitWindow() to docking camera Activate()
 * 2019-0426: 1.3.4.1 (linuxgurugamer) for KSP 1.7.0
 	+ Updated for 1.7.0
 * 2019-0426: 1.3.4 (linuxgurugamer) for KSP 1.7.0
