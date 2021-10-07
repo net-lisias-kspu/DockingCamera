@@ -1,5 +1,7 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2020-0803: 1.3.7.3 (linuxgurugamer) for KSP 1.10.1
+	+ Fixed camera by replacing "Camera 01" with "UIMainCamera"
 * 2019-1202: 1.3.7.2 (linuxgurugamer) for KSP 1.8.1
 	+ Converted two textures from DXT3 to DXT5
 * 2019-1201: 1.3.7.1 (linuxgurugamer) for KSP 1.8.1
