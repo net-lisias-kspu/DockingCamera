@@ -1,5 +1,18 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-0804: 1.3.6.1 (linuxgurugamer) for KSP 1.7.3
+	+ Fixed bug where if the second sliding window was open when the camera was closed, opening the camera again would sometimes (depending on the shader) show shadow buttons
+	+ Thanks to forum user @sirkut for this:
+		- Made the docking camera configurable as a general purpose camera.
+	+ Added a dev mode for modders and players to be able to determine the correct values for the camera position
+		- (see the ReadMe for complete instructions)
+	+ Added two models to choose from for displaying the camera location, a camera and a node.  The model is selected in the stock game settings page, and only takes effect on windows when they are opened.
+	+ Fixed issue with two or more cameras on the same part
+	+ Added: transformModification for a special case where the transform for the camera needs to not be changed
+	+ Cross stock in sliding window is overridden by settign???
+	+ Renamed shaders to consistant naming: DockingCamera/(name)
+	+ Added InstallChecker
+	+ Changed display of shader to remove the first part of the name (before the slash)
 * 2019-0614: 1.3.6 (linuxgurugamer) for KSP 1.7.1 PRE-RELEASE
 * 2019-0531: 1.3.5 (linuxgurugamer) for KSP 1.7.1
 	+ Removed log spam
