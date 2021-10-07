@@ -1,5 +1,16 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2020-1115: 1.3.7.7 (linuxgurugamer) for KSP 1.10.1
+	+ Fixed typo of asset name for targetpoint
+	+ Thank to github user @wile1411 for all of the following:
+		- Reordered PartCamera.cs Activate() function. It was also missing the InitTextures() which was causing the Target marker to not load.
+		- Added ActionGroup for camera activation to both part modules
+		- Corrected the shader reference path to: 'Legacy Shaders/Particles/Additive '. Was causing NRE errors if bullets or Target ray buttons were used.
+		- Added user config option to set EC amount for camera usage. Was hard coded to 0.02. Updated part cfg files to match.
+		- Found a logic hole in the PartCameraModule. When a camera isEnabled (after being activated()) it does regular checks for electric charge. Once EC gets to zero, the mod will deactivate the camera (docking cameras are unaffected) and set isEnabled & _isPowered to "FALSE".
+		- In this state, there is no way to get back to IsEnabled = true due to there being a power state check before allowing a user to enable a camera. No EC checks are ever run again and the camera cannot be used.
+		- Added code to do an ECcheck before trying to enable the camera to avoid this issue.
+		- Fixed the kerbals being seen through parts by fixing the cullingMaskLayer
 * 2020-1013: 1.3.7.6 (linuxgurugamer) for KSP 1.10.1
 	+ Converted textures to dds
 * 2020-0908: 1.3.7.5 (linuxgurugamer) for KSP 1.10.1
