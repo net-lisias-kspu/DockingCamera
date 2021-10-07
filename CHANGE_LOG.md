@@ -1,5 +1,6 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-0614: 1.3.6 (linuxgurugamer) for KSP 1.7.1 PRE-RELEASE
 * 2019-0531: 1.3.5 (linuxgurugamer) for KSP 1.7.1
 	+ Removed log spam
 	+ Add check for vessels undocking
