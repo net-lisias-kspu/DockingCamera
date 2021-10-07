@@ -1,5 +1,14 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2020-1208: 1.3.8 (linuxgurugamer) for KSP 1.10.1
+	+ Increase size of info window
+	+ Merged in changes from forum user @Dehim (github @Dehim1) with alternate mode
+	+ Added help window for alt mode
+	+ Added setting for alt mode
+	+ Added toggle for alt mode on info window
+	+ Rewrote config save, now saves to a .cfg in PluginData
+	+ Now remembers last size of camera window
+	+ Now remembers last location of camera window
 * 2020-1121: 1.3.7.9 (linuxgurugamer) for KSP 1.10.1
 	+ Reverted cullingmask change
 * 2020-1116: 1.3.7.8 (linuxgurugamer) for KSP 1.10.1
