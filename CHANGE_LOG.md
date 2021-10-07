@@ -1,5 +1,7 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2020-1121: 1.3.7.9 (linuxgurugamer) for KSP 1.10.1
+	+ Reverted cullingmask change
 * 2020-1116: 1.3.7.8 (linuxgurugamer) for KSP 1.10.1
 	+ Adjusted the cullingmask for the markercam
 * 2020-1115: 1.3.7.7 (linuxgurugamer) for KSP 1.10.1
