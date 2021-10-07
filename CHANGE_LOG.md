@@ -1,5 +1,8 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2018-0709: 1.3.3.2 (linuxgurugamer) for KSP 1.3.1
+	+ This release adds back the missing PNG files to make the mod work.
+	+ the nightvision and TV shaders are NOT functional at this time
 * 2018-0215: 1.3.3.1 (DennyTX) for KSP 1.3.1
 	+ REBORN.
 		- Recompiled for KSP 1.3.1
