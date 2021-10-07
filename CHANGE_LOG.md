@@ -1,5 +1,13 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2018-0215: 1.3.3.1 (DennyTX) for KSP 1.3.1
+	+ REBORN.
+		- Recompiled for KSP 1.3.1
+		- Fixed problem with texture creational while -force-d3d11 (DX11) (post with problem)
+		- assets will load only once
+		- reduced spam to log
+		- DELETE previous versions by me or linuxgurugamer before installation
+	+ If installing by CKAN, no need to manually delete old versions
 * 2017-1022: 1.3.2 (linuxgurugamer) for KSP 1.3.1
 	+ Added ability to rotate the docking camera
 	+ Added zoom to docking camera
