@@ -1,5 +1,9 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2021-0721: 1.3.8.2 (linuxgurugamer) for KSP 1.12.1
+	+ Fixed OnboardCamera to work in orbit
+	+ Added Assemblyfileversion
+	+ Updated project info
 * 2021-0311: 1.3.8.1 (linuxgurugamer) for KSP 1.11.1
 	+ Closes # 23
 	+ Added ModuleCargoPart for KSP 1.11
