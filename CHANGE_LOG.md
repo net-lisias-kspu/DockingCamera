@@ -1,5 +1,7 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2020-1013: 1.3.7.6 (linuxgurugamer) for KSP 1.10.1
+	+ Converted textures to dds
 * 2020-0908: 1.3.7.5 (linuxgurugamer) for KSP 1.10.1
 	+ Added settings to enable/disable the cross, summary data, detail text data and rotators
 	+ Added setting for default window size
