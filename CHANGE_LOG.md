@@ -1,5 +1,7 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-0824: 1.3.6.2 (linuxgurugamer) for KSP 1.7.3
+	+ Added support for the ClickThroughFix
 * 2019-0804: 1.3.6.1 (linuxgurugamer) for KSP 1.7.3
 	+ Fixed bug where if the second sliding window was open when the camera was closed, opening the camera again would sometimes (depending on the shader) show shadow buttons
 	+ Thanks to forum user @sirkut for this:
