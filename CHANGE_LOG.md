@@ -1,5 +1,7 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-0426: 1.3.4.1 (linuxgurugamer) for KSP 1.7.0
+	+ Updated for 1.7.0
 * 2019-0426: 1.3.4 (linuxgurugamer) for KSP 1.7.0
 	+ Nightvision and TV shaders are working again
 	+ TV shader replaced by a CRT shader
