@@ -1,5 +1,16 @@
 # Docking Camera (KURS) :: Change Log
 
+* 2019-0426: 1.3.4 (linuxgurugamer) for KSP 1.7.0
+	+ Nightvision and TV shaders are working again
+	+ TV shader replaced by a CRT shader
+	+ Updated obsolete code to new standards
+	+ Removed old Noise shaders, were replaced by code long time ago
+	+ Changed functionality of aux window when resizing, it now stays the way it is (ie: if open, will reopen when resizing is complete)
+	+ Added additional larger size
+	+ Changed camera rotation from 180 to 90 degrees (for the camera part)
+	+ Removed extra level of directory from release (removed the OLDD directory)
+	+ Renamed directory to DockingCamKURS
+	+ Rewrote the ReadMe.md
 * 2018-0709: 1.3.3.2 (linuxgurugamer) for KSP 1.3.1
 	+ This release adds back the missing PNG files to make the mod work.
 	+ the nightvision and TV shaders are NOT functional at this time
