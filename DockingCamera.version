@@ -1,24 +1,18 @@
 {
-  "NAME": "DockingCameraKURS",
-  "VERSION": {
-    "MAJOR": 1,
-    "MINOR": 3,
-    "PATCH": 3,
-    "BUILD": 1
-  },
-  "KSP_VERSION": {
-    "MAJOR": 1,
-    "MINOR": 3,
-    "PATCH": 1
-  },
-  "KSP_VERSION_MIN": {
-    "MAJOR": 1,
-    "MINOR": 3,
-    "PATCH": 1
-  },
-  "KSP_VERSION_MAX": {
-    "MAJOR": 1,
-    "MINOR": 3,
-    "PATCH": 1
-  }
+	"NAME"		: "DockingCameraKURS /L Unofficial",
+	"URL"		: "https://raw.githubusercontent.com/net-lisias-kspu/DockingCameraKURS/master/DockingCamera.version",
+	"DOWNLOAD"	: "https://github.com/net-lisias-kspu/DockingCamera/releases",
+	"CHANGE_LOG"	: "https://raw.githubusercontent.com/net-lisias-kspu/DockingCamera/master/CHANGE_LOG.md",
+	"CHANGE_LOG_URL": "https://raw.githubusercontent.com/net-lisias-kspu/DockingCamera/master/CHANGES.md",
+	"VERSION":{
+		"MAJOR":1,
+		"MINOR":2,
+		"PATCH":8,
+		"BUILD":2
+		},
+	"KSP_VERSION_MIN":{
+		"MAJOR":1,
+		"MINOR":3,
+		"PATCH":1
+		}
 }

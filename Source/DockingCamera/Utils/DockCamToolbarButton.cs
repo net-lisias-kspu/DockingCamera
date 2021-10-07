@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
+using UnityEngine;
 using KSP.IO;
 using KSP.UI.Screens;
+using ToolbarControl_NS;
 using OLDD_camera.Camera;
 using OLDD_camera.Utils;
-using ToolbarControl_NS;
-using UnityEngine;
 
 namespace OLDD_camera
 {
