@@ -100,6 +100,8 @@
 * 2018-0709: 1.3.3.2 (linuxgurugamer) for KSP 1.3.1
 	+ This release adds back the missing PNG files to make the mod work.
 	+ the nightvision and TV shaders are NOT functional at this time
+* 2018-0513: 1.1.6.6 (linuxgurugamer) for KSP 1.4
+	+ Recompile by LGG for 1.4
 * 2018-0215: 1.3.3.1 (DennyTX) for KSP 1.3.1
 	+ REBORN.
 		- Recompiled for KSP 1.3.1
@@ -117,5 +119,56 @@
 	+ No changelog provided
 * 2017-1009: 1.3.1.1 (linuxgurugamer) for KSP 1.3.1
 	+ No changelog provided
-* 2018-0513: 1.1.6.6 (linuxgurugamer) for KSP 1.3.1
-	+ Recompile by LGG for 1.4
+* 2016-11-18: 1.2.1.1 (DennyTX) for KSP 1.2.1 (Binary is M.I.A)
+	+ Recompiled fo KSP 1.2.1
+	+ Code cleanup and bugs hunting. Some bugs removed some bugs added. I tried to do camera interface to becomes more friendly, providing small "tips what to do" in different situations and will not allowing situations that causing exceptions. Also, seems like FPS drop down, when many camera windows are opened, becomes significantly less.
+	+ Restriction for turning on "docking camera" has been removed. Now you can turn on DocCam without active target. Also, without target selected, it will not show flight data on its screen.
+	+ Hard dependence from Blizzy toolbar removed, you can call config window by pressing Alt+1.
+	+ According to the received requests - "Forced Camera Shutdown" has been added. In config window you can select a swith and when camera window, which transmitted from the nonactive vessel, dissapears when nonactive vessel exits out of range it will or will not (depends of switch) appears again when non active vessel with camera will come back to range.
+New camera window will be opened near previous, without overlapping each other.
+	+ Do not forget that cameras needs electricity, and if it will be depleted, camera windows will be closed.
+	+ Hope, all should work as expected, if not - feedback are welcomed
+* 2016-1017: 1.2.0.2 (DennyTX) for KSP 1.2 (Binary is M.I.A)
+	+ Fixed issue with dissapearing button panel.
+	+ Electrisity consuption was back
+* 2016-1011: 1.2.0.1 (DennyTX) for KSP 1.2 (Binary is M.I.A)
+	+ Version file.
+	+ recompiled for 1.2. release
+	+ minor interface changing
+* 2016-1009: 1.2 (DennyTX) FOR KSP 1.2 PRE RELEASE (Binary is M.I.A)
+	+ KSP 1.2.pre ready.
+	+ electricity consumption temporarily disabled.
+	+ Added toolbar button.
+	+ can change unload range.(via toolbar button)
+	+ shaders divided to three groups (via toolbar button)
+	+ added 2 new modes for cameras, installed on non-active vessels
+* 2016-0609: 0.0.1.7 (DennyTX) for KSP 1.1.3 (Binary is M.I.A)
+	+ moved auxiliary textures to assetbundle
+	+ embedded six new shaders (see example)
+	+ digital noise can be turned on/off  by toggle (and in cfg too)
+	+ camera number and its target shown in window title
+	+ reports whence being broadcast images, when the camera has been activated on the other (non-current) vessel and vessel has been changed (at distance less than 2500)
+	+ many cameras can work simultaneously
+	+ has been checked to 32- and 64 bit assemblies.
+* 2016-0605: 0.0.1.6 (DennyTX) for KSP 1.1.2 PRE-RELEASE (Binary is M.I.A)
+	+ Temp build. code cleanup for KSP 1.1.2
+* 2016-0605: 0.0.1.5 (DennyTX) for KSP 1.1.2 PRE-RELEASE (Binary is M.I.A)
+	+ Temp build. code cleanup for KSP 1.1.2
+* 2015-1113: 0.0.1.4 (DennyTX) for KSP 1.0.5 (Binary is M.I.A)
+	+ The target beam scanning with its own scientific experiment has been added. It triggered when certain conditions met. Namely - the need to focus the camera at the subject (chosen target) and irradiate it. If the range (set in CFG) are within a given (it accordingly may require a rapprochement with the object) - will be carried out the experiment. if the conditions are not met - will not. The experiment has a limit of (4 times) and consumes resources (configurable in CFG). Further development - something to do with the system of contracts that can be ordered reconnaissance flights.
+	+ Saving screenshots has been added. It will be collected in a separate directory that is bound to the name of the game, with the time mark in the name. I think about video recording, but so far only with the external library. However, still not sure it needed.
+	+ Additional zoom modes has been added. Optical zoom can be increase with coeff 10, as well as wide-angle camera mode.
+	+ Target's tags has been added.
+	+ Toggles for all interface elements has been added. Can be made by switchable toggles or through CFG.
+	+ Helper cross in docking camera now support two modes of operation. First - my mode, second - duplicates the work of DockingPortAligmentIndicator.
+	+ The initial window size can now be set through the CFG. Ie no longer necessary to have only default 256 points ( can be supplied, for example - 500, and then the following steps will change the scale coefficients to 1.5 and 2 (ie, get 750 and 1000 respectively).
+	+ A lot of small fixes. Such as following: the new camera window will not overlap the time scale. Cameras informs about broadcast (useful, if the camera is turned at the currently inactive ship). Button for window close. Rebuild for 1.05.
+* 2015-1107: 0.0.1.2 (DennyTX) for KSP 1.0.4 (Binary is M.I.A)
+	+ Docking camera will get its position from "dockingNode" now, this should fix the problem with Inline Clamp-O-Tron.
+	+ Color of "targetting cross" will be customizable in CFG.
+	+ Most operational buttons has been moved in openable window.
+	+ Flight data and roll rotator can be turned off/on by toggle.
+	+ Flight data from cameras, that installed at other vessel (non current one) will be shut off.
+	+ Bug with red text everywhere seems to be fixed. (deltaZ speed must become red only if closure rate becomes higher 3 m/s or if we moving away from the target).
+	+ Speed of part-camera rotation by axiss becomes depending on the current zoom. High zoom - smaller step of rotation.
+	+ More verifications has been added into the code.
